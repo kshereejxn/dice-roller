@@ -7,10 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>
-    <h1>Lady Luck's Dice Game</h1>
+
+<div id="hero">
+
+    <h1>Lady 
+        <img alt="four leaf clover" src="../dice-roller/assets/clover.jpg" width="40px"> 
+        Luck's Dice Game</h1>
+    <h2>Feeling lucky?</h2> </div>
     
-</div>
+    
+<div>
+    <div id="numberdice"><p>How many dice would you like to roll?</p>
+        <input type="text" id="roll" name="roll" required minlength="1" maxlength="3" size="3">
+        <p>Ready? Set? Roll <button class="rollingdice">Kiss Me</button></p>
+       
+        
+        <div class="sumtotal">
+            <h3>And you rolled a </h3>   
+        </div>
+
+        <div class="indtotal">
+            <h3>Points so far </h3>
+        </div>
+        <h3>Ready to start over? RESET button</h3>
+ </div>
 
    <script src="main.js"></script>
 </body>

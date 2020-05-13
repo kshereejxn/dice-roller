@@ -1,3 +1,27 @@
 * {
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    border: 2px solid red;
+}
+.sumtotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid orange;
+}
+.indtotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid orange;
+}
+#hero {
+    width: 100%;
+    height: 450px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url("../dice-roller/assets/dice-roll-gif-11.gif");
+    background-attachment: fixed;
+}
