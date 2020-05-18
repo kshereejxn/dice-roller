@@ -17,17 +17,25 @@
     
     
 <div>
-    <div id="numberdice"><p>How many dice would you like to roll?</p>
-        <input type="text" id="roll" name="roll" required minlength="1" maxlength="3" size="3">
-        <p>Ready? Set? Roll <button class="rollingdice">Kiss Me</button></p>
-       
+    <div id="numberdice">
+        <p>
+        <label for="diceroll">How many dice would you like to roll?</label>
+
+        <input type="text" id="number-of-rolls" name="diceroll" required minlength="1" maxlength="3" size="3"></p>
         
+        <p>Ready? Set? Roll 
+            <button id="roll">Kiss Me</button></p>
+       
         <div class="sumtotal">
-            <h3>And you rolled a </h3>   
+            <h3>Your Total is: 
+                <span id="total">0</span>
+            </h3>
         </div>
 
         <div class="indtotal">
-            <h3>Points so far </h3>
+            <h3>Points so far </h3> 
+            <button id="show-all-rolls"> Show all rolls
+            <ol id="list-for-rolls">ordered list</ol></button>
         </div>
         <h3>Ready to start over? RESET button</h3>
  </div>
