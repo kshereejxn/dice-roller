@@ -29,10 +29,23 @@ for (index =0; index < dieRolls.length; index += 1){
 
 
 
-reset.addEventListener("click", function() {
-    
-    console.log ("Game reset");
+/*reset.addEventListener("click", function() {
+    let newResetValue = (reset.innerHTML);
+    reset.innerHTML = newResetValue;
 
-})
+    if (newResetValue = 1) {
+        numberOfRolls.value = 0;
+        total.innerHTML = 0; 
+        showAllRolls.innerHTML = 0;
+        
+        console.log ("Game reset");
+    }
+    else {
+
+    }
+
+  
+
+})*/
 
 
