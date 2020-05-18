@@ -4,7 +4,6 @@
 body {
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
 }
 
 .hero {
@@ -15,10 +14,10 @@ body {
     background-image: url("../dice-roller/assets/dice-roll-gif-11.gif");
     background-attachment: fixed;
 }
-.header {
-    display: flex;
-    border: 2px solid yellow;
+.intro {
+    text-align: center;
 }
+
 .part1 {
     display: flex;
     flex-direction: column;
@@ -31,8 +30,8 @@ body {
     align-items: center;
     border: 2px solid blue;
 }
-/*.part3 {
+.part3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-}*/
+}
